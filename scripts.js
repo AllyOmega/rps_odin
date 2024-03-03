@@ -39,7 +39,8 @@ function playGame() {
     computerScore = playerScore = 0;
 
     console.log("let's play Rock Paper Scissors!")
- ayerScore != 5) {
+
+    while (computerScore != 5 && playerScore != 5) {
         result = playRound(prompt("Please enter choice:").toLowerCase(), getComputerChoice()); 
         if (result == 1) {
             playerScore++;
